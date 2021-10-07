@@ -76,7 +76,6 @@
 			{#each CheckersBoard.rows as row}
 				<div class="row">
 					{#each row.squares as square}
-						{#if square.hasPawn}
 							<div
 								class="square"
 								style="
@@ -84,15 +83,6 @@
 									height: {square.area.height}; 
 									background-color: {square.color};"
 							/>
-						{:else}
-							<div
-								class="square"
-								style="
-									width: {square.area.width}; 
-									height: {square.area.height}; 
-									background-color: {square.color};"
-							/>
-						{/if}
 					{/each}
 				</div>
 			{/each}
