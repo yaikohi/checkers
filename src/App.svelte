@@ -1,24 +1,24 @@
 <script lang="ts">
 	import type { Square, Row, Board, Pawn } from "./interfaces/checkers";
 
-	const whiteSquare: Square = {
+	let whiteSquare: Square = {
 		color: "beige",
 		area: { width: "50px", height: "50px" },
 		hasPawn: false,
 	};
-	const blackSquare: Square = {
+	let blackSquare: Square = {
 		color: "black",
 		area: { width: "50px", height: "50px" },
 		hasPawn: false,
 	};
 	// TODO: Create Square-objects with pawns
 
-	const pawnWhite: Pawn = {
+	let pawnWhite: Pawn = {
 		color: "beige",
 		area: { width: "50px", height: "50px" },
 	};
 
-	const pawnBlack: Pawn = {
+	let pawnBlack: Pawn = {
 		color: "black",
 		area: { width: "50px", height: "50px" },
 	};
