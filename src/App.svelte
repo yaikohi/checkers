@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Square, Row, Board, Pawn } from "./interfaces/checkers";
+	import type { Square, Row, Board } from "./interfaces/checkers";
 
 	let whiteSquare: Square = {
 		color: "beige",
@@ -12,17 +12,6 @@
 		hasPawn: false,
 	};
 	// TODO: Create Square-objects with pawns
-
-	let pawnWhite: Pawn = {
-		color: "beige",
-		area: { width: "50px", height: "50px" },
-	};
-
-	let pawnBlack: Pawn = {
-		color: "black",
-		area: { width: "50px", height: "50px" },
-	};
-
 	// TODO: Implement a function that adds a square based on the Row.length property
 	// TODO: Implement a function that allows you to select a row variation (start with black / start with white)
 	let row_var1: Row = {
