@@ -11,7 +11,7 @@
 		area: { width: "50px", height: "50px" },
 		hasPawn: false,
 	};
-	// TODO: Create objects with pawns
+	// TODO: Create Square-objects with pawns
 
 	const pawnWhite: Pawn = {
 		color: "beige",
