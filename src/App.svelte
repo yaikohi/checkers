@@ -100,7 +100,6 @@
 		display: flex;
 		position: fixed;
 		border: 1px solid black;
-		/* flex-direction: row; */
 		/* eight squares times their width or length: 8 * 50px = 400px */
 		max-width: 400px;
 		max-height: 400px;
