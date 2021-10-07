@@ -1,4 +1,3 @@
-<!-- Square object -->
 <script lang="ts">
 	import type { Square, Row, Board, Pawn } from "./interfaces/checkers";
 
